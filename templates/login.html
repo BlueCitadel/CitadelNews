@@ -1,0 +1,32 @@
+{% load socialaccount %}
+{% providers_media_js %}
+<!DOCTYPE html>
+{% load static %}
+<html lang="en" dir="ltr">
+	<head>
+		<meta charset="utf-8">
+		<title>CitadelNews</title>
+		<link rel="stylesheet" href='{% static "styles/style.css" %}'>
+		<!--<link rel="stylesheet" href='{% static "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" %}'>-->
+		<link rel="icon" href='{% static "images/favicon.ico" %}' >
+	</head>
+	<body>
+		
+		<div class='loginbox'>
+			<img src="static/images/avatar_photo.png" alt="Loginbox" class="avatar">
+					<h1>Login Here</h1>
+					<form class="" action="" method="post">
+						
+						<!--<a href="{% provider_login_url "google"  %}"><input class="first" type="Submit" name="" value="Login with Google"></a><br>
+						<a href="{% provider_login_url "facebook" method="oauth2" %}"> <input class="second" type="Submit" name=""  value="Login with Facebook"></a><br>-->
+						<button><a href="{% provider_login_url "google" method="oauth2" %}">Login with google</a></button>	
+						<button><a href="{% provider_login_url "facebook" method="oauth2" %}">Login with facebook</a></button>
+
+					</form>
+
+
+		</div>
+
+
+	</body>
+</html>

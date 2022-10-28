@@ -1,0 +1,61 @@
+/*Top-Header*/
+
+.top-header {
+  margin: 0 20%;
+}
+
+/*Interests Navbar*/
+.header-nav {
+  background-color: #07264a;
+}
+
+/*Breaking News*/
+.breaking-news {
+  background-color: #0a4275;
+  color: white;
+  padding-top: 20px;
+  padding-left: 20%
+}
+
+/*Suggestions Based On Interest*/
+.interest-cards {
+  margin: 0 10%;
+}
+
+.interest-suggestions {
+  padding: 2% 1% 5% 1%;
+  background-color: #0a4275;
+  color: white;
+}
+
+.card-text {
+  color: black;
+}
+
+.card-title {
+  color: black;
+}
+
+.interest-suggestion {
+  text-align: center;
+}
+
+/*Middle Container*/
+.mid-section {
+  padding: 50px 20%;
+}
+
+
+
+.hot-topics {
+  margin: auto;
+}
+
+
+
+
+/*profile*/
+
+.profile-img {
+  height: auto;
+}
