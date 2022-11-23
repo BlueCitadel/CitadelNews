@@ -1,10 +1,14 @@
 body{
   margin: 0;
   padding: 0;
-  background: url(background_photo.jpg);
   font-family: sans-serif;
 }
 
+img{
+  width: 100%;
+  height: auto;
+
+}
 .loginbox{
   width:320px;
   height:300px;
@@ -16,6 +20,7 @@ body{
   transform: translate(-50%, -50%);
   box-sizing: border-box;
   padding: 70px 30px;
+  opacity: 0.8;
 
 }
 
@@ -66,8 +71,8 @@ h1{
   outline: none;
   height: 40px;
 
-  color: #fff;
-  font-size: 18px;
+  color: black;
+  font-size: 22px;
   border-radius: 20px;
 
 }
@@ -82,9 +87,9 @@ h1{
 
 .loginbox a{
   text-decoration: none;
-  font-size: 12px;
+  font-size: 20px;
   line-height: 20px;
-  color: darkgrey;
+  color: black;
 }
 
 .loginbox a:hover{
