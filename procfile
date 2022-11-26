@@ -1,1 +1,1 @@
-web: gunicorn citadelnews.wsgi --log-file -
+web:gunicorn citadelnews.wsgi --log-file -
